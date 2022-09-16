@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
+.header { /*style the header*/
+    background-color:navy;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+body { 
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.topnav { /* Style the top navigation bar */
+    overflow: hidden;
+    background-color: grey;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  article {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin: calc(5% /3);
+    padding: 2rem;
+    width: calc(90% / 3);
+    background-color: #def2f1;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 3rem 2rem 3rem 2rem;
+    background-color: #17242a;
+    color: white;
+    text-align: center;
+}
